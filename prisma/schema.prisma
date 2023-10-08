@@ -1,0 +1,87 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model connection {
+  id                                      String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id                                 String   @db.Uuid
+  connected_user_id                       String   @db.Uuid
+  status                                  String   @db.VarChar(255)
+  connection_date                         DateTime @db.Timestamp(6)
+  created_at                              DateTime @default(now()) @db.Timestamp(6)
+  updated_at                              DateTime @default(now()) @db.Timestamp(6)
+  user_connection_connected_user_idTouser user     @relation("connection_connected_user_idTouser", fields: [connected_user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user_connection_user_idTouser           user     @relation("connection_user_idTouser", fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model item {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name        String   @db.VarChar(255)
+  description String?  @db.VarChar(255)
+  category    String   @db.VarChar(255)
+  condition   String   @db.VarChar(255)
+  user_id     String   @db.Uuid
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+  updated_at  DateTime @default(now()) @db.Timestamp(6)
+  user        user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model knowledge {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  title       String   @db.VarChar(255)
+  description String?  @db.VarChar(255)
+  category    String   @db.VarChar(255)
+  user_id     String   @db.Uuid
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+  updated_at  DateTime @default(now()) @db.Timestamp(6)
+  user        user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model message {
+  id                             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  sender_id                      String   @db.Uuid
+  receiver_id                    String   @db.Uuid
+  content                        String   @db.VarChar(255)
+  send_date                      DateTime @db.Timestamp(6)
+  created_at                     DateTime @default(now()) @db.Timestamp(6)
+  updated_at                     DateTime @default(now()) @db.Timestamp(6)
+  user_message_receiver_idTouser user     @relation("message_receiver_idTouser", fields: [receiver_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user_message_sender_idTouser   user     @relation("message_sender_idTouser", fields: [sender_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model organization {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description String?  @db.VarChar(255)
+  name        String   @db.VarChar(255)
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+  updated_at  DateTime @default(now()) @db.Timestamp(6)
+  user_id     String   @db.Uuid
+  tenant_id   String   @db.VarChar(255)
+  location    String?  @db.VarChar(255)
+  user        user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model user {
+  id                                            String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email                                         String         @unique @db.VarChar(255)
+  firstName                                     String?        @db.VarChar(255)
+  lastName                                      String?        @db.VarChar(255)
+  roq_user_id                                   String         @db.VarChar(255)
+  tenant_id                                     String         @db.VarChar(255)
+  created_at                                    DateTime       @default(now()) @db.Timestamp(6)
+  updated_at                                    DateTime       @default(now()) @db.Timestamp(6)
+  connection_connection_connected_user_idTouser connection[]   @relation("connection_connected_user_idTouser")
+  connection_connection_user_idTouser           connection[]   @relation("connection_user_idTouser")
+  item                                          item[]
+  knowledge                                     knowledge[]
+  message_message_receiver_idTouser             message[]      @relation("message_receiver_idTouser")
+  message_message_sender_idTouser               message[]      @relation("message_sender_idTouser")
+  organization                                  organization[]
+}

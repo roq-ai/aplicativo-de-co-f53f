@@ -1,0 +1,2422 @@
+[
+  {
+    "message": [
+      {
+        "id": "0c4cccaf-a80a-4388-a4eb-707a6a79c1fa",
+        "content": "Hello",
+        "send_date": "2023-10-07T19:48:10.708Z",
+        "created_at": "2023-10-07T14:45:32.731Z",
+        "updated_at": "2023-10-07T17:41:38.436Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "a539d675-8227-44e0-8ca1-f1765d2930d9",
+        "content": "How are you?",
+        "send_date": "2023-10-07T09:58:16.241Z",
+        "created_at": "2023-10-08T07:53:05.647Z",
+        "updated_at": "2023-10-08T05:07:19.576Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "4c968a8d-5ca5-41bb-a78e-2508cc7c1625",
+        "content": "Nice to meet you",
+        "send_date": "2023-10-07T18:27:01.744Z",
+        "created_at": "2023-10-07T11:04:42.475Z",
+        "updated_at": "2023-10-08T07:40:19.797Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "e3dc4954-bde4-457f-a866-ad1afb19000e",
+        "content": "Have a great day",
+        "send_date": "2023-10-07T19:40:42.207Z",
+        "created_at": "2023-10-07T19:37:57.047Z",
+        "updated_at": "2023-10-07T10:07:13.705Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "85abb878-048a-4aa7-8449-22e018273857",
+        "content": "Thank you",
+        "send_date": "2023-10-08T04:24:28.009Z",
+        "created_at": "2023-10-08T07:11:41.069Z",
+        "updated_at": "2023-10-07T12:34:36.057Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "f94412df-41a6-4635-a10a-2b23a2e8dfe3",
+        "title": "Introduction to Python",
+        "description": "A beginner's guide to Python programming",
+        "category": "Programming",
+        "created_at": "2023-10-07T15:51:26.634Z",
+        "updated_at": "2023-10-08T06:33:58.663Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77b726e3-7ebe-450a-8a50-e64640468357",
+        "title": "Web Development Basics",
+        "description": "Learn the basics of web development",
+        "category": "Technology",
+        "created_at": "2023-10-08T02:59:52.953Z",
+        "updated_at": "2023-10-07T10:58:51.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7146ed9c-9312-4e74-95c6-b6b3ef5eee76",
+        "title": "Machine Learning Fundamentals",
+        "description": "Explore the fundamentals of machine learning",
+        "category": "Science",
+        "created_at": "2023-10-08T00:49:48.647Z",
+        "updated_at": "2023-10-07T19:55:38.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e162bf7-bc4c-4b07-840b-ca8390c8c371",
+        "title": "Artificial Intelligence in Healthcare",
+        "description": "Discover the role of AI in healthcare",
+        "category": "Healthcare",
+        "created_at": "2023-10-08T00:02:37.625Z",
+        "updated_at": "2023-10-08T08:35:26.835Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98f834b0-2547-4d8e-aa23-997e1bce9b10",
+        "title": "Cybersecurity Best Practices",
+        "description": "Stay safe with these cybersecurity tips",
+        "category": "Security",
+        "created_at": "2023-10-08T08:33:07.958Z",
+        "updated_at": "2023-10-07T18:46:31.259Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "c976e359-8444-414a-aab8-0865b7882d49",
+        "name": "Laptop",
+        "description": "Powerful laptop for work and entertainment",
+        "category": "Electronics",
+        "condition": "Brand new",
+        "created_at": "2023-10-07T23:31:34.470Z",
+        "updated_at": "2023-10-07T10:00:32.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e146edb6-fcba-446f-adf1-e7a391efe510",
+        "name": "Smartphone",
+        "description": "Latest smartphone with advanced features",
+        "category": "Gadgets",
+        "condition": "Excellent",
+        "created_at": "2023-10-08T06:25:04.662Z",
+        "updated_at": "2023-10-07T16:24:02.577Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd8e5113-cf15-49df-8400-bb9443b64760",
+        "name": "Camera",
+        "description": "High-quality camera for capturing memories",
+        "category": "Photography",
+        "condition": "Good",
+        "created_at": "2023-10-08T09:22:52.962Z",
+        "updated_at": "2023-10-07T14:51:09.931Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90b65969-3201-4457-9183-42676b1c5ab5",
+        "name": "Headphones",
+        "description": "Premium headphones for immersive audio experience",
+        "category": "Audio",
+        "condition": "Used",
+        "created_at": "2023-10-07T10:41:15.629Z",
+        "updated_at": "2023-10-08T00:59:09.355Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae837c58-161b-46e3-914d-9be979346c0e",
+        "name": "Tablet",
+        "description": "Versatile tablet for productivity and entertainment",
+        "category": "Computers",
+        "condition": "Refurbished",
+        "created_at": "2023-10-08T08:47:53.025Z",
+        "updated_at": "2023-10-07T18:22:12.010Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "connection": [
+      {
+        "id": "72090e8a-bd25-4361-a8f5-7c721829ae20",
+        "status": "Connected",
+        "connection_date": "2023-10-07T12:43:24.988Z",
+        "created_at": "2023-10-07T23:41:20.729Z",
+        "updated_at": "2023-10-07T20:56:44.637Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcd1eb3c-1e03-4f5f-97e5-fc7c2977a685",
+        "status": "Pending",
+        "connection_date": "2023-10-08T05:07:18.125Z",
+        "created_at": "2023-10-08T04:27:05.479Z",
+        "updated_at": "2023-10-08T01:34:48.905Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3515d2e-2113-4599-97b5-92402e10854b",
+        "status": "Blocked",
+        "connection_date": "2023-10-07T14:00:03.310Z",
+        "created_at": "2023-10-08T04:25:08.801Z",
+        "updated_at": "2023-10-07T13:39:24.562Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03897169-9b11-4695-b5e8-41845708fb85",
+        "status": "Accepted",
+        "connection_date": "2023-10-08T03:31:35.128Z",
+        "created_at": "2023-10-07T17:26:39.555Z",
+        "updated_at": "2023-10-07T21:17:10.927Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c89731c7-e5b8-4999-8f17-d915c00d2ba5",
+        "status": "Disconnected",
+        "connection_date": "2023-10-08T09:10:23.477Z",
+        "created_at": "2023-10-07T12:03:59.570Z",
+        "updated_at": "2023-10-08T00:26:30.584Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0e933f93-b916-4f14-8a0a-18034f93ecd0",
+        "email": "Robb_Schamberger31@roq.tech",
+        "firstName": "Virgil",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5578825",
+        "tenantId": null
+      },
+      {
+        "reference": "051f1a4e-1913-4347-8ec3-4a813769da5d",
+        "email": "Madisyn76@roq.tech",
+        "firstName": "Garnet",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1048.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4e0ae1a-1318-422a-9d41-531d3d70599a",
+        "email": "Lexi0@roq.tech",
+        "firstName": "Cathryn",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "76459f8c-c834-444a-92f7-be1ff59c1cde",
+        "email": "Israel_Kris@roq.tech",
+        "firstName": "Giovanny",
+        "lastName": "Dach-Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44137780",
+        "tenantId": null
+      },
+      {
+        "reference": "54474464-89ba-4974-9e21-7c7f50d620bb",
+        "email": "General35@roq.tech",
+        "firstName": "Icie",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19946315",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "message": [
+      {
+        "id": "2f525dce-703d-4570-bfba-0d8507fbad3e",
+        "content": "Hello, how are you?",
+        "send_date": "2023-10-07T18:51:12.101Z",
+        "created_at": "2023-10-07T12:09:38.169Z",
+        "updated_at": "2023-10-08T00:54:58.775Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "2c618bd6-15fe-436d-b1ca-e0dba7256e69",
+        "content": "Just wanted to check in",
+        "send_date": "2023-10-08T04:34:44.540Z",
+        "created_at": "2023-10-08T01:59:59.178Z",
+        "updated_at": "2023-10-07T09:49:24.715Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "805513de-c8e6-45b7-9c61-a0bc6d77a40b",
+        "content": "I have a question for you",
+        "send_date": "2023-10-07T13:37:12.702Z",
+        "created_at": "2023-10-08T04:32:03.141Z",
+        "updated_at": "2023-10-08T07:36:25.357Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "90167495-a514-47c4-96b1-5d0a1a7ca8e7",
+        "content": "Can we meet tomorrow?",
+        "send_date": "2023-10-07T20:50:27.195Z",
+        "created_at": "2023-10-07T15:31:32.584Z",
+        "updated_at": "2023-10-08T04:53:14.072Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "d006c2bf-33f2-4acc-9f77-ba8333ddd553",
+        "content": "Thank you for your help",
+        "send_date": "2023-10-08T07:24:32.787Z",
+        "created_at": "2023-10-07T22:34:39.319Z",
+        "updated_at": "2023-10-07T14:53:25.557Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "83fe4714-d00e-4575-a6d7-c96c7d333ce1",
+        "title": "Introduction to Machine Learning",
+        "description": "A comprehensive guide to the basics of machine learning",
+        "category": "Technology",
+        "created_at": "2023-10-07T14:14:43.562Z",
+        "updated_at": "2023-10-08T00:01:49.941Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "012dc6f3-c3a7-4faf-b6eb-aae52641fef0",
+        "title": "The Importance of Exercise",
+        "description": "Exploring the positive impact of regular exercise on overall health",
+        "category": "Health & Wellness",
+        "created_at": "2023-10-08T05:42:47.430Z",
+        "updated_at": "2023-10-08T06:33:25.488Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a6e89e0-3d04-40ec-bd2a-013cec282f3a",
+        "title": "Tips for Effective Time Management",
+        "description": "Practical strategies for managing time efficiently",
+        "category": "Productivity",
+        "created_at": "2023-10-08T09:10:32.872Z",
+        "updated_at": "2023-10-08T05:31:52.064Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8355fa1c-02a4-4422-9fc0-54e04b4526eb",
+        "title": "Understanding Climate Change",
+        "description": "Examining the causes and consequences of climate change",
+        "category": "Environment",
+        "created_at": "2023-10-07T11:58:04.771Z",
+        "updated_at": "2023-10-07T19:38:09.936Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b6c1b17-5ed3-4c78-ba51-fb5bfc0e1dd3",
+        "title": "The Benefits of Meditation",
+        "description": "Exploring the mental and physical benefits of meditation",
+        "category": "Mindfulness",
+        "created_at": "2023-10-07T11:12:30.526Z",
+        "updated_at": "2023-10-08T05:09:19.303Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "5e0af410-8d0b-4622-b74e-eafb079c6c0f",
+        "name": "iPhone 12",
+        "description": "The latest smartphone with advanced features",
+        "category": "Electronics",
+        "condition": "Brand New",
+        "created_at": "2023-10-08T03:23:16.570Z",
+        "updated_at": "2023-10-08T04:25:35.190Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02d3109a-ce82-439c-a655-4268c0c6d89f",
+        "name": "Designer Handbag",
+        "description": "A luxury handbag crafted from high-quality materials",
+        "category": "Fashion",
+        "condition": "Excellent",
+        "created_at": "2023-10-07T21:14:34.402Z",
+        "updated_at": "2023-10-07T22:46:50.745Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ddeeb2f-1f9d-4a8b-83c0-11326218eb85",
+        "name": "Gaming Laptop",
+        "description": "A powerful laptop for gaming enthusiasts",
+        "category": "Technology",
+        "condition": "Good",
+        "created_at": "2023-10-08T09:15:25.403Z",
+        "updated_at": "2023-10-08T01:58:54.885Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a9c5f77-d676-4bf5-8ff8-a346d5763796",
+        "name": "Fitness Tracker",
+        "description": "A wearable device to track fitness activities",
+        "category": "Health & Fitness",
+        "condition": "Used",
+        "created_at": "2023-10-07T20:32:37.795Z",
+        "updated_at": "2023-10-08T07:44:59.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b014aff-8470-4925-8528-ee7ef8520cae",
+        "name": "Cookware Set",
+        "description": "A set of durable and versatile cookware",
+        "category": "Kitchen",
+        "condition": "Like New",
+        "created_at": "2023-10-07T15:24:56.156Z",
+        "updated_at": "2023-10-08T06:33:52.290Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "connection": [
+      {
+        "id": "7fb31d64-cd9a-45f0-81c8-9f1a59dd909b",
+        "status": "Connected",
+        "connection_date": "2023-10-07T17:02:37.395Z",
+        "created_at": "2023-10-07T17:42:50.914Z",
+        "updated_at": "2023-10-07T17:22:59.712Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf61733c-b26a-4756-8fef-d87c80a40b6a",
+        "status": "Pending",
+        "connection_date": "2023-10-07T12:24:52.817Z",
+        "created_at": "2023-10-07T21:33:15.663Z",
+        "updated_at": "2023-10-08T09:23:30.248Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdccf700-6916-4a1c-84b5-b3db84791466",
+        "status": "Blocked",
+        "connection_date": "2023-10-07T12:02:37.543Z",
+        "created_at": "2023-10-08T02:43:48.375Z",
+        "updated_at": "2023-10-07T12:48:47.918Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c178757e-4385-48c9-92b9-be0dce5f38fc",
+        "status": "Accepted",
+        "connection_date": "2023-10-08T04:02:55.193Z",
+        "created_at": "2023-10-07T13:17:58.657Z",
+        "updated_at": "2023-10-08T05:04:48.559Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fc79e03-7cef-419c-ab2d-c8e200d9eec4",
+        "status": "Declined",
+        "connection_date": "2023-10-08T05:57:13.270Z",
+        "created_at": "2023-10-07T15:25:55.302Z",
+        "updated_at": "2023-10-08T08:06:10.472Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "13753aa7-6ed7-40f4-a9dc-31def0d0bf25",
+        "email": "Florine_Von17@roq.tech",
+        "firstName": "Judd",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1203.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c961e4b3-02e2-4b09-93c6-775ec647d39e",
+        "email": "Beau9@roq.tech",
+        "firstName": "Samanta",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87380618",
+        "tenantId": null
+      },
+      {
+        "reference": "06878ffc-bf78-4e7b-85b5-6936f4813d6b",
+        "email": "Kelley.OKeefe@roq.tech",
+        "firstName": "Francesco",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/102.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "17a7f85a-a130-446f-aa21-bd4bf7196d9a",
+        "email": "Myrtice_Hermiston17@roq.tech",
+        "firstName": "Mireille",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/330.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fe6ec8b0-9920-43d2-8ea2-72b0c72aac3b",
+        "email": "Darren98@roq.tech",
+        "firstName": "Durward",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53110284",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "message": [
+      {
+        "id": "1586c25e-9d56-4f8b-b39f-b8a6cf1e7172",
+        "content": "Hello",
+        "send_date": "2023-10-07T21:43:36.580Z",
+        "created_at": "2023-10-07T22:53:21.317Z",
+        "updated_at": "2023-10-07T22:22:37.255Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "d7d81c9c-9552-4dce-b328-86d88e6c03f6",
+        "content": "How are you?",
+        "send_date": "2023-10-07T19:29:42.869Z",
+        "created_at": "2023-10-07T17:42:01.770Z",
+        "updated_at": "2023-10-08T09:00:27.526Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "68db984a-bbd8-4559-bddf-e10d5f51963d",
+        "content": "Nice to meet you",
+        "send_date": "2023-10-07T13:58:38.918Z",
+        "created_at": "2023-10-08T04:58:30.207Z",
+        "updated_at": "2023-10-07T13:18:28.634Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "1452bcac-e29f-4914-981b-2d58c9f4fd9b",
+        "content": "Have a great day",
+        "send_date": "2023-10-07T23:35:20.034Z",
+        "created_at": "2023-10-07T18:27:53.774Z",
+        "updated_at": "2023-10-07T21:55:05.036Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "dc0ffa34-cc67-46e7-9ed7-92cee340f260",
+        "content": "Thank you",
+        "send_date": "2023-10-07T16:22:38.770Z",
+        "created_at": "2023-10-08T08:55:53.995Z",
+        "updated_at": "2023-10-07T17:28:17.632Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "2c6f95af-f4a6-4866-b663-1ca85d0fa3f1",
+        "title": "Introduction to Python",
+        "description": "Learn the fundamentals of Python programming language",
+        "category": "Technology",
+        "created_at": "2023-10-08T00:23:27.208Z",
+        "updated_at": "2023-10-08T04:42:21.333Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac5d309c-c380-4d52-b570-5ea0249faa1e",
+        "title": "Effective Communication Skills",
+        "description": "Improve your communication skills for better relationships",
+        "category": "Personal Development",
+        "created_at": "2023-10-08T04:15:47.951Z",
+        "updated_at": "2023-10-08T07:06:28.361Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ddd249f-b268-425a-ba97-dbb274bdb7cf",
+        "title": "Financial Planning Basics",
+        "description": "Understand the basics of financial planning for a secure future",
+        "category": "Finance",
+        "created_at": "2023-10-08T08:14:52.307Z",
+        "updated_at": "2023-10-07T17:15:40.215Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b780fe90-8856-4a01-81fc-c425702ee6a3",
+        "title": "Healthy Eating Habits",
+        "description": "Discover the importance of healthy eating habits for a balanced lifestyle",
+        "category": "Health & Wellness",
+        "created_at": "2023-10-08T01:09:40.402Z",
+        "updated_at": "2023-10-07T21:58:19.217Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6357dc5e-9775-4b28-9711-713a81798faf",
+        "title": "Time Management Techniques",
+        "description": "Learn effective time management techniques for increased productivity",
+        "category": "Productivity",
+        "created_at": "2023-10-08T00:49:52.705Z",
+        "updated_at": "2023-10-08T03:16:38.113Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "eb65da85-974d-4f43-ae5c-ef36ecb26db6",
+        "name": "Smartphone",
+        "description": "A high-end smartphone with advanced features",
+        "category": "Electronics",
+        "condition": "Brand New",
+        "created_at": "2023-10-07T22:41:47.940Z",
+        "updated_at": "2023-10-07T13:33:38.616Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8ef192a-5be9-4188-aa1d-62dcf3b2d624",
+        "name": "Laptop",
+        "description": "A powerful laptop for professional use",
+        "category": "Computers",
+        "condition": "Excellent",
+        "created_at": "2023-10-07T17:11:11.759Z",
+        "updated_at": "2023-10-07T13:50:21.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07028af7-3434-4ce9-9426-3d7c56759618",
+        "name": "Camera",
+        "description": "A professional-grade camera for photography enthusiasts",
+        "category": "Photography",
+        "condition": "Good",
+        "created_at": "2023-10-07T16:32:08.630Z",
+        "updated_at": "2023-10-08T01:05:43.323Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a80f2f4d-5a93-46a2-b932-6c2340f548d6",
+        "name": "Headphones",
+        "description": "Premium headphones for immersive audio experience",
+        "category": "Audio",
+        "condition": "Used",
+        "created_at": "2023-10-07T15:50:11.455Z",
+        "updated_at": "2023-10-08T07:26:40.360Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7735c752-a832-4b7f-a1e1-1ed9f0f8db31",
+        "name": "Fitness Tracker",
+        "description": "A fitness tracker to monitor your health and fitness goals",
+        "category": "Fitness",
+        "condition": "Refurbished",
+        "created_at": "2023-10-07T16:18:47.059Z",
+        "updated_at": "2023-10-07T12:06:54.497Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "connection": [
+      {
+        "id": "320ccd37-7bed-4262-8f94-138d22a05807",
+        "status": "Connected",
+        "connection_date": "2023-10-07T14:12:34.611Z",
+        "created_at": "2023-10-07T22:25:13.512Z",
+        "updated_at": "2023-10-07T17:28:42.075Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d09e05f2-4f27-4c05-bb56-f5fba8537a16",
+        "status": "Pending",
+        "connection_date": "2023-10-07T11:18:06.997Z",
+        "created_at": "2023-10-07T16:44:41.090Z",
+        "updated_at": "2023-10-07T12:33:10.971Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6d2afd2-fc0e-436f-8f19-e18c43264fee",
+        "status": "Disconnected",
+        "connection_date": "2023-10-07T15:31:59.363Z",
+        "created_at": "2023-10-07T17:29:29.722Z",
+        "updated_at": "2023-10-08T09:37:00.186Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71427208-210e-4062-9c54-7a331de6bd2e",
+        "status": "Blocked",
+        "connection_date": "2023-10-07T12:53:25.349Z",
+        "created_at": "2023-10-07T21:27:45.683Z",
+        "updated_at": "2023-10-08T05:18:06.766Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62c20b91-7ec9-46e3-b325-b21c277d49a2",
+        "status": "Accepted",
+        "connection_date": "2023-10-07T23:13:21.303Z",
+        "created_at": "2023-10-08T03:34:46.231Z",
+        "updated_at": "2023-10-07T15:27:10.059Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c864c228-f210-4e5c-8cd6-eb331591e115",
+        "email": "Natalie_Tremblay@roq.tech",
+        "firstName": "Immanuel",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/943.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb365988-0daa-4c47-bd7b-7b5eaff3470d",
+        "email": "Juston.DAmore@roq.tech",
+        "firstName": "Antwon",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1144.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10a37818-f23f-4541-a033-8906c34f963e",
+        "email": "Melany_Becker@roq.tech",
+        "firstName": "Yoshiko",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30824439",
+        "tenantId": null
+      },
+      {
+        "reference": "967a9213-5bfe-415a-b4ff-cdb718b6225c",
+        "email": "Katheryn57@roq.tech",
+        "firstName": "Amie",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79747276",
+        "tenantId": null
+      },
+      {
+        "reference": "785bfa79-7105-4927-8c3a-8915a8ee29c9",
+        "email": "Xavier76@roq.tech",
+        "firstName": "Brock",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24418610",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "message": [
+      {
+        "id": "e069449f-cf30-44fe-bc5c-b25e4a85811f",
+        "content": "Hello, how are you?",
+        "send_date": "2023-10-07T14:27:21.234Z",
+        "created_at": "2023-10-07T10:17:30.712Z",
+        "updated_at": "2023-10-08T01:17:48.587Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "1f980199-9742-4873-b7ca-edefb319118e",
+        "content": "Just wanted to say hi!",
+        "send_date": "2023-10-07T19:48:12.557Z",
+        "created_at": "2023-10-08T00:22:29.802Z",
+        "updated_at": "2023-10-07T20:20:47.070Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "d212990e-a4c1-489e-a3b0-315e300a90ea",
+        "content": "I have a question for you.",
+        "send_date": "2023-10-08T03:15:38.327Z",
+        "created_at": "2023-10-07T17:41:06.479Z",
+        "updated_at": "2023-10-07T20:48:42.549Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "9ba17001-cec9-47ef-a754-788147eb24d2",
+        "content": "Congratulations on your recent achievement!",
+        "send_date": "2023-10-07T11:20:56.497Z",
+        "created_at": "2023-10-07T18:43:51.505Z",
+        "updated_at": "2023-10-08T06:02:34.962Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "7ab4b706-e7af-4a90-b8e3-e86441169ef0",
+        "content": "Looking forward to meeting you.",
+        "send_date": "2023-10-07T17:40:06.738Z",
+        "created_at": "2023-10-07T12:03:03.849Z",
+        "updated_at": "2023-10-07T15:59:31.564Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "5a1f8cf6-22da-4aa1-a3a7-fa486fae481b",
+        "title": "Introduction to Machine Learning",
+        "description": "Learn the basics of machine learning and its applications.",
+        "category": "Technology",
+        "created_at": "2023-10-07T14:02:56.250Z",
+        "updated_at": "2023-10-08T05:35:12.538Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77a1c129-9d16-4585-b3b8-9d742eac14c4",
+        "title": "Effective Communication Skills",
+        "description": "Improve your communication skills for better relationships.",
+        "category": "Personal Development",
+        "created_at": "2023-10-07T14:38:24.562Z",
+        "updated_at": "2023-10-08T05:14:27.876Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69cf0028-0534-4b11-beb7-4e82cabd6ffa",
+        "title": "The Art of Negotiation",
+        "description": "Master the art of negotiation and achieve win-win outcomes.",
+        "category": "Business",
+        "created_at": "2023-10-07T15:48:33.145Z",
+        "updated_at": "2023-10-08T06:17:37.147Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae44b0e7-80be-42a9-811d-d1707288c534",
+        "title": "Beginner's Guide to Photography",
+        "description": "Get started with photography and capture stunning images.",
+        "category": "Art",
+        "created_at": "2023-10-07T17:11:54.526Z",
+        "updated_at": "2023-10-07T13:02:45.059Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84052098-3886-4b5d-bf12-686fd1e44c65",
+        "title": "Healthy Eating Habits",
+        "description": "Discover the importance of healthy eating habits for a balanced lifestyle.",
+        "category": "Health",
+        "created_at": "2023-10-08T01:14:28.914Z",
+        "updated_at": "2023-10-07T21:06:59.917Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "7d07c08d-bad5-43e0-aefe-3301b2ab232b",
+        "name": "iPhone 12 Pro",
+        "description": "The latest smartphone with advanced features.",
+        "category": "Electronics",
+        "condition": "Brand New",
+        "created_at": "2023-10-07T18:41:26.553Z",
+        "updated_at": "2023-10-07T10:46:17.713Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e98f977-354d-4435-ac8f-6de42661e114",
+        "name": "Nike Air Max 90",
+        "description": "Classic sneakers known for their comfort and style.",
+        "category": "Fashion",
+        "condition": "Excellent",
+        "created_at": "2023-10-08T09:27:21.081Z",
+        "updated_at": "2023-10-08T08:23:58.905Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d0932d7-506e-47da-a07f-2f8853109e5e",
+        "name": "Sony PlayStation 5",
+        "description": "Next-generation gaming console for immersive gameplay.",
+        "category": "Gaming",
+        "condition": "Good",
+        "created_at": "2023-10-07T18:25:52.236Z",
+        "updated_at": "2023-10-07T09:58:01.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27ef2b4e-9f9b-4086-bbdb-7e31f33a46a1",
+        "name": "MacBook Pro",
+        "description": "Powerful laptop for professional work and creativity.",
+        "category": "Technology",
+        "condition": "Used",
+        "created_at": "2023-10-08T02:23:45.780Z",
+        "updated_at": "2023-10-08T01:15:57.734Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e554273e-ea3e-4242-8268-f10823de66b5",
+        "name": "Fitbit Charge 4",
+        "description": "Fitness tracker to monitor your health and fitness goals.",
+        "category": "Fitness",
+        "condition": "Like New",
+        "created_at": "2023-10-07T11:47:09.570Z",
+        "updated_at": "2023-10-08T02:14:33.281Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "connection": [
+      {
+        "id": "2c04ac90-0328-4437-90a1-e29f3e428974",
+        "status": "Connected",
+        "connection_date": "2023-10-07T19:15:13.662Z",
+        "created_at": "2023-10-07T20:29:12.609Z",
+        "updated_at": "2023-10-07T14:02:11.103Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb032b51-b4a7-4823-9712-6d9a1697336b",
+        "status": "Pending",
+        "connection_date": "2023-10-07T23:35:00.558Z",
+        "created_at": "2023-10-08T09:11:10.346Z",
+        "updated_at": "2023-10-07T20:35:57.592Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "985bc236-6aef-4e52-b2c3-5029dd998eb5",
+        "status": "Blocked",
+        "connection_date": "2023-10-07T16:39:45.849Z",
+        "created_at": "2023-10-07T09:51:27.830Z",
+        "updated_at": "2023-10-08T02:16:28.439Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e16d7b8a-66dc-4c2f-baa0-5077382ccadc",
+        "status": "Accepted",
+        "connection_date": "2023-10-07T13:53:33.380Z",
+        "created_at": "2023-10-07T18:33:15.078Z",
+        "updated_at": "2023-10-07T15:52:24.530Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63f7b42f-8504-459e-89b7-e5dae19c6f40",
+        "status": "Declined",
+        "connection_date": "2023-10-07T23:56:17.744Z",
+        "created_at": "2023-10-08T00:43:15.655Z",
+        "updated_at": "2023-10-07T16:19:02.847Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5444a05a-4e0c-4301-b587-a79f60b79639",
+        "email": "Nikolas_McClure@roq.tech",
+        "firstName": "Enrique",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54878980",
+        "tenantId": null
+      },
+      {
+        "reference": "7cf068d7-11ba-41e7-afea-9e6563e6886b",
+        "email": "Rowena_Barton15@roq.tech",
+        "firstName": "Michale",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96491871",
+        "tenantId": null
+      },
+      {
+        "reference": "3cc2b903-c2e5-4661-8f6b-fb420d2ae9c6",
+        "email": "Tate.Swaniawski36@roq.tech",
+        "firstName": "Eliza",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1501239",
+        "tenantId": null
+      },
+      {
+        "reference": "0eb95521-6208-4514-86bf-890d6f12f675",
+        "email": "Santino.Quitzon38@roq.tech",
+        "firstName": "Dasia",
+        "lastName": "Brakus-Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/379.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dd3abfc6-0035-419d-a407-9f68d614c2b2",
+        "email": "Gertrude.DAmore@roq.tech",
+        "firstName": "America",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55733540",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "message": [
+      {
+        "id": "41b10545-23f8-4405-91ac-97df9302b802",
+        "content": "Thank you for your inquiry. We will get back to you shortly.",
+        "send_date": "2023-10-07T21:53:07.289Z",
+        "created_at": "2023-10-07T23:26:46.938Z",
+        "updated_at": "2023-10-08T02:48:33.932Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "7310dbe8-d0e5-41d3-b2d4-b3de1be91d2b",
+        "content": "Congratulations on your recent achievement!",
+        "send_date": "2023-10-07T10:34:43.781Z",
+        "created_at": "2023-10-07T20:34:28.205Z",
+        "updated_at": "2023-10-08T02:14:06.247Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "5180f3e4-466f-45c2-a046-fdbe9321270c",
+        "content": "Just a friendly reminder about our upcoming event.",
+        "send_date": "2023-10-07T11:35:20.942Z",
+        "created_at": "2023-10-07T17:11:24.683Z",
+        "updated_at": "2023-10-07T15:34:28.646Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "c1d9c1f1-e36f-4f1b-bba5-63f7a10e2dc4",
+        "content": "We appreciate your feedback. Your opinion matters to us.",
+        "send_date": "2023-10-07T16:54:42.525Z",
+        "created_at": "2023-10-07T20:38:25.535Z",
+        "updated_at": "2023-10-08T07:47:01.946Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "9bcfac13-50e8-4240-ac16-86547dd686d4",
+        "content": "Wishing you a wonderful day ahead!",
+        "send_date": "2023-10-07T14:25:49.359Z",
+        "created_at": "2023-10-07T18:16:49.163Z",
+        "updated_at": "2023-10-08T04:26:56.897Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "b7dc7593-09d6-43c6-8ee0-7510a30dfe92",
+        "title": "Introduction to Machine Learning",
+        "description": "Learn the basics of machine learning and its applications.",
+        "category": "Technology",
+        "created_at": "2023-10-08T04:35:42.791Z",
+        "updated_at": "2023-10-07T10:17:14.201Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6b10cb2-3d7e-4c46-91d4-a9e56bf61421",
+        "title": "Effective Time Management Strategies",
+        "description": "Discover effective techniques to manage your time efficiently.",
+        "category": "Productivity",
+        "created_at": "2023-10-07T20:44:40.375Z",
+        "updated_at": "2023-10-08T01:46:09.177Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35b32c17-b783-4372-b9db-0e7df0e3305f",
+        "title": "The Art of Negotiation",
+        "description": "Master the art of negotiation and improve your communication skills.",
+        "category": "Business",
+        "created_at": "2023-10-07T14:17:41.164Z",
+        "updated_at": "2023-10-08T09:16:52.549Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26ffe3fa-0bfb-44c2-ae46-40ffb97fb954",
+        "title": "Tips for Healthy Eating",
+        "description": "Explore tips and tricks for maintaining a healthy diet.",
+        "category": "Health",
+        "created_at": "2023-10-07T14:30:30.983Z",
+        "updated_at": "2023-10-07T22:36:44.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c34fc8d-3484-4c94-9e5b-914a92ec8b0a",
+        "title": "Beginner's Guide to Yoga",
+        "description": "Start your journey into yoga with this beginner's guide.",
+        "category": "Wellness",
+        "created_at": "2023-10-08T07:10:10.136Z",
+        "updated_at": "2023-10-07T17:13:30.448Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "f4b6cb53-653c-4c39-aaa3-f5962198b7c3",
+        "name": "iPhone 12 Pro",
+        "description": "The latest flagship smartphone with advanced features.",
+        "category": "Electronics",
+        "condition": "Brand New",
+        "created_at": "2023-10-08T09:26:30.175Z",
+        "updated_at": "2023-10-07T11:54:59.617Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "675a8324-91d3-4aa5-a8d8-12a7f5a3f77e",
+        "name": "Nike Air Max",
+        "description": "Stylish and comfortable athletic shoes for everyday wear.",
+        "category": "Fashion",
+        "condition": "Excellent",
+        "created_at": "2023-10-08T08:31:43.335Z",
+        "updated_at": "2023-10-08T01:56:45.933Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41dc335a-b8fd-41f7-b358-b0550cc8a8e2",
+        "name": "Leather Handbag",
+        "description": "High-quality leather handbag with multiple compartments.",
+        "category": "Accessories",
+        "condition": "Gently Used",
+        "created_at": "2023-10-07T14:11:00.737Z",
+        "updated_at": "2023-10-07T11:09:54.687Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a4e5d02-7fd6-4f4a-aaa8-fd0e567571a0",
+        "name": "Wireless Bluetooth Earbuds",
+        "description": "Enjoy wireless music and calls with these Bluetooth earbuds.",
+        "category": "Audio",
+        "condition": "Like New",
+        "created_at": "2023-10-07T16:35:06.976Z",
+        "updated_at": "2023-10-08T02:48:30.829Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8d1321b-2d2a-4a81-b86c-2c05d60065ef",
+        "name": "Smart Home Security System",
+        "description": "Protect your home with this smart security system.",
+        "category": "Home",
+        "condition": "Mint Condition",
+        "created_at": "2023-10-07T09:44:53.761Z",
+        "updated_at": "2023-10-07T18:06:57.734Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "connection": [
+      {
+        "id": "17850a18-d2cb-424f-8662-960f3f0d3b96",
+        "status": "Connected",
+        "connection_date": "2023-10-07T14:49:43.093Z",
+        "created_at": "2023-10-07T22:54:27.493Z",
+        "updated_at": "2023-10-08T03:11:28.277Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a10981f3-653f-4b62-8770-cb756d74f8d9",
+        "status": "Pending",
+        "connection_date": "2023-10-07T18:54:25.364Z",
+        "created_at": "2023-10-07T22:14:37.231Z",
+        "updated_at": "2023-10-07T17:20:08.608Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cc81704-4ef7-4a9b-b3ca-57a6408608af",
+        "status": "Accepted",
+        "connection_date": "2023-10-08T03:28:14.658Z",
+        "created_at": "2023-10-07T22:05:42.903Z",
+        "updated_at": "2023-10-07T21:56:03.133Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4693e9c9-ac65-4ec4-9291-7583bf6cb557",
+        "status": "Declined",
+        "connection_date": "2023-10-08T01:08:32.314Z",
+        "created_at": "2023-10-08T02:47:39.866Z",
+        "updated_at": "2023-10-07T22:08:25.624Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6999d957-6b52-4d0b-8d5a-167b0dd0bbf8",
+        "status": "Blocked",
+        "connection_date": "2023-10-07T11:29:31.604Z",
+        "created_at": "2023-10-07T15:26:50.667Z",
+        "updated_at": "2023-10-07T09:40:57.604Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c5ebfc52-15d1-42d6-b79f-04859e79b30e",
+        "email": "Dameon.Wunsch-Cremin24@roq.tech",
+        "firstName": "Chelsey",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47739340",
+        "tenantId": null
+      },
+      {
+        "reference": "53b86bb6-408d-4ca2-9fd5-10696c509925",
+        "email": "Abner38@roq.tech",
+        "firstName": "Lila",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24007511",
+        "tenantId": null
+      },
+      {
+        "reference": "404d9a3b-ed6a-4e0a-a100-7f22cac294df",
+        "email": "Elliot9@roq.tech",
+        "firstName": "Wilma",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/637749",
+        "tenantId": null
+      },
+      {
+        "reference": "ba4fd152-3f41-439b-bc6a-d5447f176318",
+        "email": "Golda_Lebsack85@roq.tech",
+        "firstName": "Ewell",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/667.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ba070c8c-2f64-41d1-bb4e-fe7f307eb7e0",
+        "email": "Wanda23@roq.tech",
+        "firstName": "Amina",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90808040",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "message": [
+      {
+        "id": "de715499-68bc-452b-b813-eda2340adc30",
+        "content": "Thank you for your support!",
+        "send_date": "2023-10-08T05:38:48.329Z",
+        "created_at": "2023-10-07T09:39:52.031Z",
+        "updated_at": "2023-10-08T07:33:04.096Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "70ed8c6b-7b34-4dfa-8e74-e9de596351da",
+        "content": "We have an exciting announcement to share!",
+        "send_date": "2023-10-08T09:36:39.273Z",
+        "created_at": "2023-10-08T04:56:22.670Z",
+        "updated_at": "2023-10-07T15:01:53.794Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "eec2f2aa-f6f5-4b62-90ce-66b6f484ffc3",
+        "content": "Let's meet for coffee and discuss collaboration opportunities.",
+        "send_date": "2023-10-07T19:54:52.417Z",
+        "created_at": "2023-10-07T19:26:43.931Z",
+        "updated_at": "2023-10-08T09:19:06.455Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "d65505a0-d353-4ed7-ae6a-4aea8db698ca",
+        "content": "Congratulations on your recent achievement!",
+        "send_date": "2023-10-07T22:57:02.608Z",
+        "created_at": "2023-10-07T19:02:02.578Z",
+        "updated_at": "2023-10-08T06:14:04.244Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "8955873d-41d0-4bdd-a83c-d471f53a7d6b",
+        "content": "Looking forward to working together.",
+        "send_date": "2023-10-07T11:50:54.664Z",
+        "created_at": "2023-10-07T18:46:58.561Z",
+        "updated_at": "2023-10-07T22:12:25.096Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "d1b41464-97b2-4680-82cc-bab2dc648876",
+        "title": "Introduction to Machine Learning",
+        "description": "Learn the basics of machine learning and its applications.",
+        "category": "Technology",
+        "created_at": "2023-10-08T07:48:15.978Z",
+        "updated_at": "2023-10-08T07:56:14.574Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b638f226-2222-447c-8eba-d9bf316821c8",
+        "title": "Effective Time Management Techniques",
+        "description": "Discover proven techniques to manage your time effectively.",
+        "category": "Productivity",
+        "created_at": "2023-10-07T10:56:48.681Z",
+        "updated_at": "2023-10-07T21:02:46.794Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "352217e9-dab5-400f-8f64-d2ea96415a3f",
+        "title": "Beginner's Guide to Photography",
+        "description": "Get started with photography and capture stunning images.",
+        "category": "Art",
+        "created_at": "2023-10-08T04:49:28.461Z",
+        "updated_at": "2023-10-07T23:01:57.121Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11aa4454-72c8-4351-a76a-fb918116c04f",
+        "title": "The Art of Negotiation",
+        "description": "Enhance your negotiation skills and achieve win-win outcomes.",
+        "category": "Business",
+        "created_at": "2023-10-08T03:20:38.281Z",
+        "updated_at": "2023-10-07T14:05:23.519Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b396c0ce-3777-4543-be55-2d46e09a9f0e",
+        "title": "Mastering JavaScript",
+        "description": "Become an expert in JavaScript programming language.",
+        "category": "Programming",
+        "created_at": "2023-10-08T05:40:53.993Z",
+        "updated_at": "2023-10-08T01:01:38.402Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "1d412bed-4f22-462a-82e6-88fa6bbb8caf",
+        "name": "iPhone 12 Pro",
+        "description": "The latest flagship smartphone with advanced features.",
+        "category": "Electronics",
+        "condition": "Brand New",
+        "created_at": "2023-10-08T08:11:38.512Z",
+        "updated_at": "2023-10-07T17:01:52.543Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7cb1c1c-e5bf-4d4d-a457-248227ab3df1",
+        "name": "Leather Handbag",
+        "description": "A stylish and durable handbag made from genuine leather.",
+        "category": "Fashion",
+        "condition": "Excellent",
+        "created_at": "2023-10-07T20:36:10.413Z",
+        "updated_at": "2023-10-07T14:27:30.904Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ce003ba-8822-4a24-83ca-8875636d76aa",
+        "name": "Wireless Bluetooth Earphones",
+        "description": "High-quality earphones with wireless connectivity.",
+        "category": "Accessories",
+        "condition": "Like New",
+        "created_at": "2023-10-07T20:52:50.144Z",
+        "updated_at": "2023-10-07T11:51:42.339Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "369e676d-e05d-465e-b1e8-46de5a81d1bd",
+        "name": "Gaming Laptop",
+        "description": "Powerful laptop designed for gaming enthusiasts.",
+        "category": "Computers",
+        "condition": "Used",
+        "created_at": "2023-10-07T14:45:21.473Z",
+        "updated_at": "2023-10-07T19:39:51.808Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b01b60f3-05fa-4ebc-94cf-bc8631075aa5",
+        "name": "Fitness Tracker",
+        "description": "Track your fitness activities and monitor your health.",
+        "category": "Health & Fitness",
+        "condition": "Fair",
+        "created_at": "2023-10-07T16:58:29.777Z",
+        "updated_at": "2023-10-08T05:14:25.169Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "connection": [
+      {
+        "id": "437613d6-d36c-46a4-9aed-404aaeb2ba4c",
+        "status": "Connected",
+        "connection_date": "2023-10-08T04:11:48.539Z",
+        "created_at": "2023-10-08T06:06:45.515Z",
+        "updated_at": "2023-10-07T21:46:33.634Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94c7c672-424f-4d5d-b6d7-da7d9476ee82",
+        "status": "Pending",
+        "connection_date": "2023-10-07T22:33:12.366Z",
+        "created_at": "2023-10-07T13:05:23.386Z",
+        "updated_at": "2023-10-07T19:06:40.664Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c80e4c9a-df6c-45f7-9ae8-4a5197ab1ed7",
+        "status": "Blocked",
+        "connection_date": "2023-10-08T04:58:15.588Z",
+        "created_at": "2023-10-07T13:33:20.660Z",
+        "updated_at": "2023-10-07T20:38:00.180Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61eb4d55-47f1-45bc-8557-a2f894c394b9",
+        "status": "Accepted",
+        "connection_date": "2023-10-08T02:47:55.454Z",
+        "created_at": "2023-10-07T20:28:54.524Z",
+        "updated_at": "2023-10-07T09:46:08.611Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1481aa15-cbd1-41e2-9b50-25d619e9db9e",
+        "status": "Declined",
+        "connection_date": "2023-10-07T17:17:49.811Z",
+        "created_at": "2023-10-08T07:01:32.204Z",
+        "updated_at": "2023-10-08T02:37:02.298Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a000b50a-bf4b-4d74-8c26-a4a2bb02e1d2",
+        "email": "Kenton45@roq.tech",
+        "firstName": "Tess",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/891.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3422a36a-ce8f-498f-b0de-2ee3c1f05231",
+        "email": "Domingo.Berge@roq.tech",
+        "firstName": "Neil",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/52.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "902a453c-3be6-424e-a374-267e3647d210",
+        "email": "Gregory.Cruickshank52@roq.tech",
+        "firstName": "Isabell",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/480.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c935a277-c0fb-4a13-8451-d328b40b3e2e",
+        "email": "Judson.Bogisich61@roq.tech",
+        "firstName": "Blaze",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43995180",
+        "tenantId": null
+      },
+      {
+        "reference": "df3592c9-ea93-443c-a6c7-f6a240c1243d",
+        "email": "Orrin.Aufderhar@roq.tech",
+        "firstName": "Joelle",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/949.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "message": [
+      {
+        "id": "bdb9551b-cabf-4b21-a2a6-e2e92ecf38e6",
+        "content": "Hello, how are you?",
+        "send_date": "2023-10-07T15:25:45.198Z",
+        "created_at": "2023-10-07T16:29:29.221Z",
+        "updated_at": "2023-10-07T15:40:50.708Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "ebe38371-69d7-490d-be8b-b941274bb65d",
+        "content": "Just wanted to say hi!",
+        "send_date": "2023-10-07T15:47:08.953Z",
+        "created_at": "2023-10-07T21:04:39.348Z",
+        "updated_at": "2023-10-08T09:17:56.090Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "8d61a3fb-2f13-4e02-8c18-49f0236faf83",
+        "content": "I have a question for you.",
+        "send_date": "2023-10-07T22:31:19.949Z",
+        "created_at": "2023-10-07T18:43:48.199Z",
+        "updated_at": "2023-10-07T14:08:28.157Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "cab68838-9743-4cb0-856e-5c39dda79279",
+        "content": "Let's meet for coffee.",
+        "send_date": "2023-10-07T20:29:48.358Z",
+        "created_at": "2023-10-07T16:30:51.362Z",
+        "updated_at": "2023-10-07T11:41:23.080Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "ff3a08e7-3e21-47bf-be5e-1e2bc0e646ee",
+        "content": "Congratulations on your success!",
+        "send_date": "2023-10-08T02:41:42.925Z",
+        "created_at": "2023-10-08T09:12:59.553Z",
+        "updated_at": "2023-10-08T08:19:05.246Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "14d7c0a2-4bd1-42ae-8712-f04058dfa75d",
+        "title": "Introduction to Python",
+        "description": "Learn the basics of Python programming language.",
+        "category": "Technology",
+        "created_at": "2023-10-07T09:42:11.396Z",
+        "updated_at": "2023-10-07T11:22:10.797Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "faf8dc35-e84c-4a50-8e2f-77e44230579d",
+        "title": "Effective Communication Skills",
+        "description": "Improve your communication skills for personal and professional success.",
+        "category": "Personal Development",
+        "created_at": "2023-10-08T03:13:03.557Z",
+        "updated_at": "2023-10-07T20:41:14.740Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a74a653d-e816-483f-8a7d-6aecdd6493b9",
+        "title": "Sustainable Living Tips",
+        "description": "Discover simple ways to live a more sustainable lifestyle.",
+        "category": "Environment",
+        "created_at": "2023-10-07T18:41:22.595Z",
+        "updated_at": "2023-10-08T07:39:34.427Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2c902e2-7882-4e40-95b8-716c7a710a48",
+        "title": "Beginner's Guide to Photography",
+        "description": "Get started with photography and learn essential techniques.",
+        "category": "Art",
+        "created_at": "2023-10-07T14:00:34.341Z",
+        "updated_at": "2023-10-08T09:11:48.200Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d545e83-54ff-49f8-8436-0c726c756a99",
+        "title": "Healthy Recipes for Busy Individuals",
+        "description": "Explore delicious and nutritious recipes for a busy lifestyle.",
+        "category": "Health",
+        "created_at": "2023-10-07T22:58:39.447Z",
+        "updated_at": "2023-10-08T05:52:48.887Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "81dd1086-4907-4f40-8d31-774476b86fd7",
+        "name": "Smartphone",
+        "description": "High-performance smartphone with advanced features.",
+        "category": "Electronics",
+        "condition": "Brand new",
+        "created_at": "2023-10-07T17:30:49.860Z",
+        "updated_at": "2023-10-08T03:59:29.961Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdd1a712-bfd0-45ec-a493-17209f30ab58",
+        "name": "Laptop",
+        "description": "Powerful laptop for professional use.",
+        "category": "Computers",
+        "condition": "Like new",
+        "created_at": "2023-10-07T15:08:09.477Z",
+        "updated_at": "2023-10-08T02:21:12.738Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04575010-bb8e-453b-bef6-3db33aa5f772",
+        "name": "Fitness Tracker",
+        "description": "Track your fitness goals with this smart wearable device.",
+        "category": "Fitness",
+        "condition": "Excellent",
+        "created_at": "2023-10-07T11:00:22.512Z",
+        "updated_at": "2023-10-08T08:39:04.025Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e5b6e81-84dd-4cab-bbab-4185157ba1b0",
+        "name": "Cookware Set",
+        "description": "Premium cookware set for culinary enthusiasts.",
+        "category": "Kitchen",
+        "condition": "Good",
+        "created_at": "2023-10-08T08:02:38.767Z",
+        "updated_at": "2023-10-08T07:09:42.219Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b813ec0b-241e-4eed-a763-0b407c8a584e",
+        "name": "Bluetooth Speaker",
+        "description": "Enjoy your favorite music with this portable speaker.",
+        "category": "Audio",
+        "condition": "Used",
+        "created_at": "2023-10-08T08:07:00.681Z",
+        "updated_at": "2023-10-08T02:21:50.183Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "connection": [
+      {
+        "id": "df2c16eb-078c-4d6f-a806-b35eb1a87722",
+        "status": "Connected",
+        "connection_date": "2023-10-08T02:54:18.045Z",
+        "created_at": "2023-10-07T19:20:41.139Z",
+        "updated_at": "2023-10-07T11:08:55.959Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6db7b45f-7058-4fc2-b8d7-af413b34ae72",
+        "status": "Pending",
+        "connection_date": "2023-10-08T08:05:23.405Z",
+        "created_at": "2023-10-07T16:54:05.562Z",
+        "updated_at": "2023-10-08T06:20:52.125Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb014842-8399-4cb6-9d5c-366205b1b5fe",
+        "status": "Accepted",
+        "connection_date": "2023-10-08T02:22:39.953Z",
+        "created_at": "2023-10-07T12:41:26.907Z",
+        "updated_at": "2023-10-07T17:39:10.946Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59b466bf-8f5a-4a7f-b20e-5cfe5b62649d",
+        "status": "Blocked",
+        "connection_date": "2023-10-08T06:17:40.291Z",
+        "created_at": "2023-10-07T15:17:02.119Z",
+        "updated_at": "2023-10-07T17:20:43.913Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "908162e7-322d-4831-b47b-8eb62bc6a8ec",
+        "status": "Disconnected",
+        "connection_date": "2023-10-07T14:01:11.549Z",
+        "created_at": "2023-10-07T10:32:21.127Z",
+        "updated_at": "2023-10-07T22:30:31.788Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0d54b67f-3cb8-424c-a3e0-528a58b223a1",
+        "email": "Alek_Feil52@roq.tech",
+        "firstName": "Chandler",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/435.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c7a9ead3-470c-4e89-9b69-ebde23aadeaf",
+        "email": "Trey97@roq.tech",
+        "firstName": "Missouri",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76568435",
+        "tenantId": null
+      },
+      {
+        "reference": "9aa7f6f9-749d-4b1a-b9d0-576c8b3519e1",
+        "email": "Jasen39@roq.tech",
+        "firstName": "Icie",
+        "lastName": "Satterfield-Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62975327",
+        "tenantId": null
+      },
+      {
+        "reference": "57081a74-da0b-43e6-a3c9-e9aeb1190015",
+        "email": "Lafayette.Gislason52@roq.tech",
+        "firstName": "Kiana",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/844.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d58ae1b1-21c3-41aa-bb0f-103c76aa7ced",
+        "email": "Justice5@roq.tech",
+        "firstName": "Laverne",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/525.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "message": [
+      {
+        "id": "0d02e711-a4b1-47cb-b2c1-d06d2ea0a515",
+        "content": "Hello, how are you?",
+        "send_date": "2023-10-07T23:06:40.383Z",
+        "created_at": "2023-10-08T07:53:50.884Z",
+        "updated_at": "2023-10-08T07:21:54.006Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "e35d95bd-72be-4354-93b4-9d70aa10b29b",
+        "content": "Just wanted to say thank you!",
+        "send_date": "2023-10-07T17:36:28.721Z",
+        "created_at": "2023-10-07T17:31:29.407Z",
+        "updated_at": "2023-10-07T23:26:32.486Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "a179f067-6360-4f1f-8980-5f1aa3afd5c3",
+        "content": "Can we schedule a meeting next week?",
+        "send_date": "2023-10-08T00:26:07.691Z",
+        "created_at": "2023-10-07T23:01:43.802Z",
+        "updated_at": "2023-10-07T11:22:07.139Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "acccc8a5-31c2-4244-a0bc-a73cc014cd90",
+        "content": "I have attached the document you requested.",
+        "send_date": "2023-10-07T19:40:02.653Z",
+        "created_at": "2023-10-07T15:26:12.216Z",
+        "updated_at": "2023-10-08T05:32:44.973Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "137494e1-6126-4531-b5b5-1303d2f726f0",
+        "content": "Looking forward to working with you.",
+        "send_date": "2023-10-08T01:02:40.141Z",
+        "created_at": "2023-10-08T00:34:15.385Z",
+        "updated_at": "2023-10-08T07:51:14.149Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "a739b15d-87a8-4934-8e94-a8a808143fc8",
+        "title": "Introduction to Machine Learning",
+        "description": "Learn the basics of machine learning and its applications.",
+        "category": "Technology",
+        "created_at": "2023-10-07T22:31:12.161Z",
+        "updated_at": "2023-10-07T10:10:55.947Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18ea62bd-1459-4da2-91a6-7fe2713ed96c",
+        "title": "Effective Communication Strategies",
+        "description": "Improve your communication skills with these effective strategies.",
+        "category": "Communication",
+        "created_at": "2023-10-07T23:16:00.206Z",
+        "updated_at": "2023-10-07T14:40:14.880Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4003c4e5-4f9c-41c1-9452-ee92ab99620b",
+        "title": "Tips for Productivity",
+        "description": "Boost your productivity with these helpful tips.",
+        "category": "Productivity",
+        "created_at": "2023-10-07T10:02:32.681Z",
+        "updated_at": "2023-10-08T00:19:26.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "638e8ee9-78d0-4619-8086-f4ac632daca5",
+        "title": "The Importance of Teamwork",
+        "description": "Discover the benefits of teamwork and how to foster it.",
+        "category": "Teamwork",
+        "created_at": "2023-10-07T09:59:28.376Z",
+        "updated_at": "2023-10-08T08:50:55.089Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88131c6f-d853-4e85-a42d-e73053cd7b32",
+        "title": "Creating a Positive Work Environment",
+        "description": "Create a positive work environment for better productivity and employee satisfaction.",
+        "category": "Workplace",
+        "created_at": "2023-10-08T01:59:55.805Z",
+        "updated_at": "2023-10-07T15:41:06.496Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "578b95d5-4f30-48fc-add2-9451d6b7e04b",
+        "name": "Smartphone",
+        "description": "A high-end smartphone with advanced features.",
+        "category": "Electronics",
+        "condition": "New",
+        "created_at": "2023-10-07T21:05:35.671Z",
+        "updated_at": "2023-10-07T11:21:19.406Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "310dc4bb-da73-4409-82bc-39c277c7ea4d",
+        "name": "Laptop",
+        "description": "A powerful laptop for professional use.",
+        "category": "Computers",
+        "condition": "Like New",
+        "created_at": "2023-10-08T01:12:37.992Z",
+        "updated_at": "2023-10-07T14:07:54.560Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "334321bc-f580-4e68-8775-f49de9fab428",
+        "name": "Camera",
+        "description": "A professional-grade camera for photography enthusiasts.",
+        "category": "Photography",
+        "condition": "Excellent",
+        "created_at": "2023-10-08T01:12:05.534Z",
+        "updated_at": "2023-10-07T21:32:29.574Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "719592d7-86a9-4304-8af4-2e4e14bcf890",
+        "name": "Headphones",
+        "description": "Premium headphones for an immersive audio experience.",
+        "category": "Audio",
+        "condition": "Good",
+        "created_at": "2023-10-08T07:24:41.505Z",
+        "updated_at": "2023-10-07T11:08:23.862Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba836171-5e81-4317-bbd7-c8f3a2213d95",
+        "name": "Fitness Tracker",
+        "description": "A fitness tracker to monitor your health and fitness goals.",
+        "category": "Fitness",
+        "condition": "Used",
+        "created_at": "2023-10-08T02:58:10.407Z",
+        "updated_at": "2023-10-07T14:27:31.754Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "connection": [
+      {
+        "id": "796d6808-f418-4614-8e43-d4b0939e8c64",
+        "status": "Connected",
+        "connection_date": "2023-10-07T19:01:43.520Z",
+        "created_at": "2023-10-07T09:43:58.832Z",
+        "updated_at": "2023-10-07T16:07:07.102Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a422e97-8f37-4a03-95bf-54cc7e962a20",
+        "status": "Pending",
+        "connection_date": "2023-10-08T00:47:51.422Z",
+        "created_at": "2023-10-07T18:55:57.039Z",
+        "updated_at": "2023-10-07T20:58:30.896Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e463d9c-77f4-4ae2-83c2-549c1b063585",
+        "status": "Accepted",
+        "connection_date": "2023-10-08T06:18:00.713Z",
+        "created_at": "2023-10-07T21:56:44.503Z",
+        "updated_at": "2023-10-08T08:23:35.357Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1076c13-7f66-4aac-bca0-23ea3689d24a",
+        "status": "Declined",
+        "connection_date": "2023-10-07T17:48:51.632Z",
+        "created_at": "2023-10-08T07:43:19.539Z",
+        "updated_at": "2023-10-07T14:41:54.370Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d439e202-bf6b-4582-9b3e-a96307f9dc6a",
+        "status": "Blocked",
+        "connection_date": "2023-10-08T08:14:54.391Z",
+        "created_at": "2023-10-07T21:43:42.394Z",
+        "updated_at": "2023-10-07T12:19:11.910Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "96f89dfc-0455-4b97-ad47-c55dc19d7897",
+        "email": "Nellie77@roq.tech",
+        "firstName": "Mossie",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50422839",
+        "tenantId": null
+      },
+      {
+        "reference": "8c4859d4-a16a-4be5-bedd-9f4c271bfe0f",
+        "email": "Valentine.Walter@roq.tech",
+        "firstName": "Gerardo",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47154966",
+        "tenantId": null
+      },
+      {
+        "reference": "8c90b78f-1faa-4e22-a127-738ab09ec946",
+        "email": "Jayme29@roq.tech",
+        "firstName": "Layne",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7729374",
+        "tenantId": null
+      },
+      {
+        "reference": "25476a1a-86cf-494f-827a-253125f49c41",
+        "email": "Jermain11@roq.tech",
+        "firstName": "Lucinda",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/184.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "769d03ce-b4dd-4cc6-b278-ea2be85b5368",
+        "email": "Eileen_Olson@roq.tech",
+        "firstName": "Gabriella",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57505430",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "message": [
+      {
+        "id": "5902b8d4-891e-4bf4-b83f-40d24c4cca42",
+        "content": "Hello, how are you?",
+        "send_date": "2023-10-08T06:02:58.044Z",
+        "created_at": "2023-10-07T20:48:37.930Z",
+        "updated_at": "2023-10-07T10:54:44.432Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "1810b48b-7767-4408-b92c-e6f01cf02d01",
+        "content": "Just wanted to say hi!",
+        "send_date": "2023-10-08T08:27:53.434Z",
+        "created_at": "2023-10-07T16:58:06.084Z",
+        "updated_at": "2023-10-07T14:14:53.434Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "e2dd58e7-c5f8-4d8e-a636-bbc8716a010c",
+        "content": "I have a question for you.",
+        "send_date": "2023-10-07T22:08:43.449Z",
+        "created_at": "2023-10-07T16:35:30.658Z",
+        "updated_at": "2023-10-07T22:19:47.981Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "39b6e69a-7c8c-464b-a1a2-eee8d9f7e2e9",
+        "content": "Thank you for your help.",
+        "send_date": "2023-10-08T08:44:01.788Z",
+        "created_at": "2023-10-07T17:51:53.588Z",
+        "updated_at": "2023-10-07T16:34:59.688Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "388fec41-0461-420b-901b-6ce0fb237e4b",
+        "content": "Let's catch up soon.",
+        "send_date": "2023-10-08T04:40:10.572Z",
+        "created_at": "2023-10-08T04:43:30.248Z",
+        "updated_at": "2023-10-07T20:05:39.576Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "4f77cd6c-7fee-404b-96da-bc6502004647",
+        "title": "Introduction to Machine Learning",
+        "description": "Learn the basics of machine learning and its applications.",
+        "category": "Technology",
+        "created_at": "2023-10-07T23:29:13.895Z",
+        "updated_at": "2023-10-07T12:08:53.976Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fd73f80-2078-4308-af75-8d95fef60a27",
+        "title": "Effective Time Management Techniques",
+        "description": "Discover proven techniques to manage your time effectively.",
+        "category": "Productivity",
+        "created_at": "2023-10-07T11:17:50.769Z",
+        "updated_at": "2023-10-07T23:10:20.507Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc9da276-438d-4ec9-b84f-2d4573adce61",
+        "title": "The Art of Negotiation",
+        "description": "Master the art of negotiation and achieve win-win outcomes.",
+        "category": "Business",
+        "created_at": "2023-10-08T00:43:20.463Z",
+        "updated_at": "2023-10-07T10:32:30.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba463ca9-1a6d-4440-85be-d22df3d69963",
+        "title": "Healthy Eating Habits",
+        "description": "Explore the importance of healthy eating habits for a balanced lifestyle.",
+        "category": "Health",
+        "created_at": "2023-10-07T14:45:00.655Z",
+        "updated_at": "2023-10-07T10:27:28.683Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2ec73aa-01bc-414f-bd2f-ba6203028be8",
+        "title": "Beginner's Guide to Yoga",
+        "description": "Start your journey into yoga with this beginner's guide.",
+        "category": "Wellness",
+        "created_at": "2023-10-07T21:57:05.994Z",
+        "updated_at": "2023-10-07T12:42:28.491Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "69f05f13-ac67-4839-9b77-77626334c292",
+        "name": "iPhone 12 Pro",
+        "description": "The latest flagship smartphone from Apple.",
+        "category": "Electronics",
+        "condition": "Brand New",
+        "created_at": "2023-10-07T15:11:39.280Z",
+        "updated_at": "2023-10-08T05:34:41.142Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fbd75e3-2421-4e37-80c1-0a2fa12622d1",
+        "name": "Nike Air Max 90",
+        "description": "Classic sneakers with iconic design.",
+        "category": "Fashion",
+        "condition": "Excellent",
+        "created_at": "2023-10-07T17:51:15.042Z",
+        "updated_at": "2023-10-07T12:52:50.662Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a1d0d93-7cb1-44b1-9936-b1a580346a00",
+        "name": "MacBook Pro",
+        "description": "Powerful laptop for professional use.",
+        "category": "Technology",
+        "condition": "Good",
+        "created_at": "2023-10-08T05:05:07.635Z",
+        "updated_at": "2023-10-07T15:16:26.992Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e886b183-559e-44d7-adbc-555b0e1f5b0b",
+        "name": "Levi's 501 Jeans",
+        "description": "Timeless denim jeans for a stylish look.",
+        "category": "Apparel",
+        "condition": "Used",
+        "created_at": "2023-10-07T16:19:45.063Z",
+        "updated_at": "2023-10-07T14:14:44.121Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3658121d-12b0-4bd6-b01c-6ce49ca6d862",
+        "name": "Sony PlayStation 5",
+        "description": "Next-generation gaming console for immersive gameplay.",
+        "category": "Gaming",
+        "condition": "Like New",
+        "created_at": "2023-10-07T17:35:03.345Z",
+        "updated_at": "2023-10-07T16:53:12.128Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "connection": [
+      {
+        "id": "ab5dc2f3-42f5-4fa0-a296-792ca4b4da74",
+        "status": "Connected",
+        "connection_date": "2023-10-08T09:04:05.616Z",
+        "created_at": "2023-10-07T13:14:35.921Z",
+        "updated_at": "2023-10-08T00:55:01.296Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d6459f1-93d0-428b-a438-358d33760a52",
+        "status": "Pending",
+        "connection_date": "2023-10-08T04:06:57.033Z",
+        "created_at": "2023-10-07T17:56:11.491Z",
+        "updated_at": "2023-10-08T06:07:27.719Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca030b4e-e2e5-409a-aba2-e433a73eb4e4",
+        "status": "Blocked",
+        "connection_date": "2023-10-08T04:33:26.539Z",
+        "created_at": "2023-10-07T10:20:47.157Z",
+        "updated_at": "2023-10-07T12:11:36.396Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16bf29f6-6254-48ab-a0cd-2e5cf899d1ce",
+        "status": "Accepted",
+        "connection_date": "2023-10-07T19:51:45.576Z",
+        "created_at": "2023-10-07T20:32:42.056Z",
+        "updated_at": "2023-10-07T16:02:34.638Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "925b1bbd-e2dc-4e95-a3ac-6a0d0f75abaa",
+        "status": "Declined",
+        "connection_date": "2023-10-07T18:55:30.377Z",
+        "created_at": "2023-10-07T16:00:39.079Z",
+        "updated_at": "2023-10-07T19:16:35.048Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d108da46-802f-4edd-8a10-fce042b60b78",
+        "email": "Hazle89@roq.tech",
+        "firstName": "Hyman",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85794171",
+        "tenantId": null
+      },
+      {
+        "reference": "f3c49428-ace0-422f-ac56-23a32c4fdedf",
+        "email": "Name64@roq.tech",
+        "firstName": "Godfrey",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/721.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4498ecbc-c174-4423-8324-d88951da6e8c",
+        "email": "Libby_Senger10@roq.tech",
+        "firstName": "Ruben",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34308375",
+        "tenantId": null
+      },
+      {
+        "reference": "0f6d65a4-7844-466f-b0ca-4450300d9acf",
+        "email": "Eve1@roq.tech",
+        "firstName": "Anastacio",
+        "lastName": "Kreiger-Koch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/268.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8325bf08-c917-4f41-b583-9d5c6a9ed948",
+        "email": "Doug.Armstrong2@roq.tech",
+        "firstName": "Kaden",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15313618",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "message": [
+      {
+        "id": "d22efa28-d891-4c4f-a0e3-706e3384127b",
+        "content": "Hello, how are you?",
+        "send_date": "2023-10-07T16:28:32.682Z",
+        "created_at": "2023-10-08T02:16:18.181Z",
+        "updated_at": "2023-10-07T21:09:46.719Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "51a5bb02-815d-4bad-a2c0-c3887f855947",
+        "content": "Just wanted to say thank you!",
+        "send_date": "2023-10-07T15:01:42.183Z",
+        "created_at": "2023-10-07T18:45:35.799Z",
+        "updated_at": "2023-10-07T16:59:40.730Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "75f489d1-f2ed-44e6-90c8-080c2117ac96",
+        "content": "I have a question regarding the project",
+        "send_date": "2023-10-08T07:00:01.545Z",
+        "created_at": "2023-10-07T21:33:16.821Z",
+        "updated_at": "2023-10-07T18:29:38.631Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "a3290206-4b91-410e-834a-59a8156aa11c",
+        "content": "Let's meet for coffee tomorrow",
+        "send_date": "2023-10-08T09:15:02.669Z",
+        "created_at": "2023-10-08T03:38:50.567Z",
+        "updated_at": "2023-10-08T03:25:02.777Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      },
+      {
+        "id": "899bd650-8f5e-4bc5-8118-d24d1d9588e5",
+        "content": "Congratulations on your promotion!",
+        "send_date": "2023-10-07T15:33:15.288Z",
+        "created_at": "2023-10-07T21:40:02.834Z",
+        "updated_at": "2023-10-08T04:19:24.026Z",
+        "receiver_id": "user_entity_pk",
+        "sender_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "a4915a88-6ddf-4a19-9f4b-caf56a77dd6e",
+        "title": "Introduction to Machine Learning",
+        "description": "Learn the basics of machine learning and its applications",
+        "category": "Technology",
+        "created_at": "2023-10-07T13:47:49.919Z",
+        "updated_at": "2023-10-07T19:54:27.112Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17b74bd4-f0e2-4629-93cd-f3d85f8c5d0a",
+        "title": "Effective Communication Skills",
+        "description": "Improve your communication skills for better relationships",
+        "category": "Personal Development",
+        "created_at": "2023-10-07T11:12:52.677Z",
+        "updated_at": "2023-10-07T15:15:32.743Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8f9bd5c-dab3-4fcd-859e-beef129db7cd",
+        "title": "Financial Planning for Beginners",
+        "description": "Get started with financial planning and budgeting",
+        "category": "Finance",
+        "created_at": "2023-10-07T23:11:15.481Z",
+        "updated_at": "2023-10-07T15:17:11.931Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9219123-2656-4e10-929e-52b71d075f29",
+        "title": "Healthy Eating Habits",
+        "description": "Discover the benefits of healthy eating and nutrition",
+        "category": "Health & Wellness",
+        "created_at": "2023-10-07T11:06:34.676Z",
+        "updated_at": "2023-10-08T06:40:21.515Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d52908dc-3bfc-4c9f-b5d0-1ab386f97159",
+        "title": "Interior Design Tips",
+        "description": "Transform your living space with these design tips",
+        "category": "Home & Decor",
+        "created_at": "2023-10-08T01:04:18.985Z",
+        "updated_at": "2023-10-08T05:03:50.735Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "43c0af6e-8910-4186-a0e2-ab10368ce156",
+        "name": "iPhone 12",
+        "description": "The latest iPhone model with advanced features",
+        "category": "Electronics",
+        "condition": "Brand New",
+        "created_at": "2023-10-07T23:59:41.293Z",
+        "updated_at": "2023-10-07T23:51:43.221Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "230c50b5-838a-4c17-ba1c-b56a7dc6e580",
+        "name": "Nike Air Max",
+        "description": "Popular athletic shoes known for comfort and style",
+        "category": "Fashion",
+        "condition": "Like New",
+        "created_at": "2023-10-08T07:02:36.288Z",
+        "updated_at": "2023-10-08T05:21:28.441Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "394d918b-9a9a-4c83-8950-21d17d2ed976",
+        "name": "MacBook Pro",
+        "description": "Powerful laptop for professional use",
+        "category": "Computers",
+        "condition": "Excellent",
+        "created_at": "2023-10-07T15:38:15.406Z",
+        "updated_at": "2023-10-08T06:56:28.981Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6726ff8-a078-4db6-831e-e77d7e564649",
+        "name": "Yoga Mat",
+        "description": "High-quality mat for yoga and fitness activities",
+        "category": "Fitness",
+        "condition": "Good",
+        "created_at": "2023-10-07T16:52:25.537Z",
+        "updated_at": "2023-10-07T14:19:45.465Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f4af234-3058-405d-8ff2-0951f63fde2a",
+        "name": "Kitchen Knife Set",
+        "description": "Complete set of sharp and durable kitchen knives",
+        "category": "Kitchenware",
+        "condition": "Used",
+        "created_at": "2023-10-07T18:45:18.731Z",
+        "updated_at": "2023-10-08T03:59:56.242Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "connection": [
+      {
+        "id": "11943712-c34c-4d5e-8b72-3fac0197c8ef",
+        "status": "Connected",
+        "connection_date": "2023-10-08T04:14:10.599Z",
+        "created_at": "2023-10-07T20:58:43.800Z",
+        "updated_at": "2023-10-08T07:19:17.760Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac509da9-a7f5-4a26-b4fd-5319b574e7f1",
+        "status": "Pending",
+        "connection_date": "2023-10-08T01:02:57.065Z",
+        "created_at": "2023-10-07T19:06:05.955Z",
+        "updated_at": "2023-10-07T18:12:52.725Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f75ad04-742d-448c-baf1-d71254cfbad4",
+        "status": "Blocked",
+        "connection_date": "2023-10-07T17:17:47.684Z",
+        "created_at": "2023-10-08T03:15:08.805Z",
+        "updated_at": "2023-10-08T02:38:36.190Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37448f6e-33cd-44de-83d4-23c090163cf8",
+        "status": "Accepted",
+        "connection_date": "2023-10-08T02:10:18.353Z",
+        "created_at": "2023-10-07T22:20:17.672Z",
+        "updated_at": "2023-10-08T02:16:00.782Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baa64018-605a-4a5e-ade8-1c6c62e1b6a2",
+        "status": "Requested",
+        "connection_date": "2023-10-07T15:08:48.679Z",
+        "created_at": "2023-10-07T10:20:30.728Z",
+        "updated_at": "2023-10-07T17:14:43.309Z",
+        "connected_user_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f3602c51-3187-4ff5-b71a-8f43eca4c996",
+        "email": "Delbert.Trantow38@roq.tech",
+        "firstName": "Wilber",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/492.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2bd69094-3609-43d1-a886-060a2e91f420",
+        "email": "Elta.Abbott@roq.tech",
+        "firstName": "Lauryn",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/479.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a45be56a-027d-416d-97c6-01b4482f9004",
+        "email": "Enola.McClure@roq.tech",
+        "firstName": "Arden",
+        "lastName": "Renner-Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59019409",
+        "tenantId": null
+      },
+      {
+        "reference": "478d6f9a-15c9-42b1-a0d0-5477d39c387f",
+        "email": "Ezra37@roq.tech",
+        "firstName": "Tristin",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/40.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "defe30d5-c7a0-4546-b685-629a3463e39c",
+        "email": "Halie_Cartwright@roq.tech",
+        "firstName": "Macy",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/572.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
